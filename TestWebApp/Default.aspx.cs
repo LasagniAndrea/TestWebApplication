@@ -12,7 +12,7 @@ namespace TestWebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            string msg = Ressource.GetSystemMsg("100", "0000");
+            string msg = Ressource.GetSystemMsg("100", textField.Text);
         }
     }
 }
